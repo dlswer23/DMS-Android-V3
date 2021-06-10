@@ -12,7 +12,7 @@ import dsm.android.v3.R
 import dsm.android.v3.presentation.model.IntroDeveloperModel
 import org.jetbrains.anko.find
 
-class IntroDeveloperAdapter(val models: ArrayList<IntroDeveloperModel>) :
+class IntroDeveloperAdapter (val models: ArrayList<IntroDeveloperModel>) :
     RecyclerView.Adapter<IntroDeveloperAdapter.IntroDeveloperViewHolder>() {
 
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): IntroDeveloperViewHolder {

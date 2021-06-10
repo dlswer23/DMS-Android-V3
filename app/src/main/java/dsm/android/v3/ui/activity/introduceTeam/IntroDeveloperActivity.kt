@@ -11,7 +11,7 @@ class IntroDeveloperActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_intro_developer)
+
         val developers = arrayListOf(
             IntroDeveloperModel("최이삭", "프론트엔드"),
             IntroDeveloperModel("이수하", "프론트엔드"),
